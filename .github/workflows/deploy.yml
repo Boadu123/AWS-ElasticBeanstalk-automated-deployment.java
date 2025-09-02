@@ -82,13 +82,13 @@ jobs:
           
           
           
-          - name: Update Elastic Beanstalk Environment
+      - name: Update Elastic Beanstalk Environment
           
-          run: |
-            echo "Deploying version: $VERSION_LABEL"
-            aws elasticbeanstalk update-environment \
-              --environment-name ${{ secrets.EB_ENVIRONMENT_NAME }} \
-              --version-label $VERSION_LABEL
+        run: |
+          echo "Deploying version: $VERSION_LABEL"
+          aws elasticbeanstalk update-environment \
+            --environment-name ${{ secrets.EB_ENVIRONMENT_NAME }} \
+            --version-label $VERSION_LABEL
 
 
 
