@@ -80,11 +80,16 @@ jobs:
           
           sleep 5
           
-          - name: Update Environment with new version
+          
+          
+          - name: Update Elastic Beanstalk Environment
+          
           run: |
+            echo "Deploying version: $VERSION_LABEL"
             aws elasticbeanstalk update-environment \
               --environment-name ${{ secrets.EB_ENVIRONMENT_NAME }} \
               --version-label $VERSION_LABEL
+
 
 
       - name: Wait for deployment
