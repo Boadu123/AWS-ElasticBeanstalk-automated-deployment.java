@@ -97,7 +97,7 @@ public class WebController {
             <body>
                 <div class="container">
                     <div class="header">
-                        <h1>🚀 AWS Elastic Beanstalk triggered</h1>
+                        <h1>🚀 AWS Elastic Beanstalk triggered version 2</h1>
                         <p>Spring Boot Application Deployment</p>
                     </div>
                     
@@ -131,6 +131,8 @@ public class WebController {
                         </div>
                         
                         <h1> Benedict will do well </h1>
+                        
+      
                     </div>
                     
                     <div class="footer">
