@@ -129,6 +129,8 @@ public class WebController {
                         <div class="status">
                             ✅ Application status: <strong>Running successfully</strong>
                         </div>
+                        
+                        <h1> Benedict will do well </h1>
                     </div>
                     
                     <div class="footer">
